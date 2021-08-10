@@ -1,10 +1,12 @@
 # rent-api
 
-After cloning the project, run the "npm i" command
+First you should install MongoDB on your machine
+
+After cloning the project, run "npm i" command
 
 Then you should specify your MongoDB connection string in startup/db.js
 
-Before running the project, you should set "app_jwtPrivateKey" and "port" environment variables so you have to run the following two commands:
+Before running the project, you should set "app_jwtPrivateKey" and "port" environment variables, so you have to run the following commands:
 
 For linux and mac users:
   1- export port=5000
